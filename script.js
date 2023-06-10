@@ -1,6 +1,4 @@
-  // write your code here
-	const extendHex = (shortHex) => {
-		
+const extendHex = (shortHex) =>
   "#" +
   shortHex
     .slice(shortHex.startsWith("#") ? 1 : 0)
@@ -11,7 +9,4 @@
 // Do not change the code below.
 const shortHex = prompt("Enter Short Hex.");
 alert(extendHex(shortHex));
-	}
-
-
-// Do not change the code below.
+ 
